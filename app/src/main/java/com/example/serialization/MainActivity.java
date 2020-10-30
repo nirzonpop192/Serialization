@@ -2,10 +2,7 @@ package com.example.serialization;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -18,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Sname = findViewById(R.id.edt_naem_id);
-        Sroll = findViewById(R.id.edt_roll_id);
+        Sname = findViewById(R.id.edtName);
+        Sroll = findViewById(R.id.edtRoll);
         Smail = findViewById(R.id.edt_mail_id);
         Sphone = findViewById(R.id.edt_phone_id);
 
